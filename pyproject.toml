@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "fastapi-healthcheck-sqlalchemy"
+version = "0.1.0"
+description = "A service to check the health of your applications SQLAlchemy connection."
+authors = ["James Tombleson <luther38@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/jtom38/fastapi_healthcheck_sqlalchemy"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Framework :: FastAPI"
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+FastAPI-SQLAlchemy = "^0.2.1"
+fastapi-healthcheck = "^0.2.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
